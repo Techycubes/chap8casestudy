@@ -108,3 +108,29 @@ main { padding-left: 2em;
 	#mobile { display: inline; }
     #desktop { display: none; }	   
 }
+/* Center the table with 60% width */
+table {
+    width: 60%;
+    margin: 0 auto 1em auto; /* Center align and add bottom margin */
+    border: 1px solid #3F2860; /* Purple border */
+    border-collapse: collapse;
+}
+
+/* Style for table headers and cells */
+th, td {
+    border: 1px solid #3F2860; /* Purple border */
+    padding: 5px;
+    text-align: left;
+}
+
+/* Alternate row background color */
+tbody tr:nth-of-type(even) {
+    background-color: #9BC1C2;
+}
+
+/* Style for the caption element */
+caption {
+    margin: 1em 0;
+    font-weight: bold;
+    font-size: 120%;
+}
